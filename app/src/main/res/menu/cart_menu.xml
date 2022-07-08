@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    a menu is being created and design for it is specified here-->
+<!--    under the action bar we get the menu-->
+
+    <item android:id="@+id/continueShoppingItem" android:title="Continue Shopping!" android:icon="@drawable/cs" app:showAsAction="always"/>
+<!--    code for creating iteams in menu-->
+    <item android:id="@+id/verifyOrderItem" android:title="Verify" android:icon="@drawable/verify" app:showAsAction="always"/>
+    <item android:id="@+id/declineOrderItem" android:title="Decline" android:icon="@drawable/decline" app:showAsAction="always"/>
+
+</menu>
